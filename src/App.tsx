@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="container">
+            <textarea name="" id="" cols={30} rows={10} className="textarea" placeholder="bakai lox"></textarea>
+            <button className="button">click me</button>
+
+            <div className="viewer">
+                <img src="https://img3.akspic.ru/previews/6/4/4/1/7/171446/171446-verholaz-chudo_chelovek_pauk_majl_morales-chelovek_pauk-majlz_morales-komiksy_marvel-500x.jpg" alt="" className="image"/>
+            </div>
+        </div>
     </div>
   );
 }

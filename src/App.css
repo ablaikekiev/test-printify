@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: #121212;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 600px;
+  margin: 0 auto;
+  row-gap: 30px;
+  padding-top: 50px;
+}
+
+.textarea {
+  padding: 20px;
+  border-radius: 8px;
+
+  outline: none;
+  background: #060606;
+  color: #fff;
+  font-weight: 600;
+}
+
+.textarea::placeholder {
+  color: #ffffff50;
+  font-weight: 600;
+}
+
+.button {
+  height: 50px;
+  cursor: pointer;
+
+  color: #060606;
+  font-weight: 600;
+}
+
+.viewer {
+  height: 400px;
+  background: #77777750;
+  border-radius: 8px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
