@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ablaikekiev/test-printify/static/css/main.381b3325.css",
+    "main.js": "/ablaikekiev/test-printify/static/js/main.0ec47573.js",
+    "static/js/787.8bc6f995.chunk.js": "/ablaikekiev/test-printify/static/js/787.8bc6f995.chunk.js",
+    "index.html": "/ablaikekiev/test-printify/index.html",
+    "main.381b3325.css.map": "/ablaikekiev/test-printify/static/css/main.381b3325.css.map",
+    "main.0ec47573.js.map": "/ablaikekiev/test-printify/static/js/main.0ec47573.js.map",
+    "787.8bc6f995.chunk.js.map": "/ablaikekiev/test-printify/static/js/787.8bc6f995.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.381b3325.css",
+    "static/js/main.0ec47573.js"
+  ]
+}
